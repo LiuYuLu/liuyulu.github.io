@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <title>你好， VuePress ！</title><meta name="description" content="这是我的第一个 VuePress 站点"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="VuePress 2.0.0-beta.23">
+    <link rel="preload" href="/assets/js/runtime~app.6d15dac6.js" as="script"><link rel="preload" href="/assets/css/styles.cfc44703.css" as="style"><link rel="preload" href="/assets/js/640.ed334a8d.js" as="script"><link rel="preload" href="/assets/js/app.c77541a8.js" as="script">
+    <link rel="stylesheet" href="/assets/css/styles.cfc44703.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container no-sidebar"><header class="navbar"><div class="toggle-sidebar-button"><svg class="icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div><span><a href="/" class=""><img class="logo" src="https://vuejs.org/images/logo.png" alt="你好， VuePress ！"><span class="site-name can-hide">你好， VuePress ！</span></a></span><div class="navbar-links-wrapper" style=""><!--[--><!--]--><nav class="navbar-links can-hide"><!--[--><div class="navbar-links-item"><a href="/design-patterns/" class="nav-link" aria-label="设计模式"><!--[--><!--]--> 设计模式 <!--[--><!--]--></a></div><div class="navbar-links-item"><a href="/vue/" class="nav-link" aria-label="Vue2&amp;Vue3"><!--[--><!--]--> Vue2&amp;Vue3 <!--[--><!--]--></a></div><div class="navbar-links-item"><div class="dropdown-wrapper"><button class="dropdown-title" type="button" aria-label="测试工具"><span class="title">测试工具</span><span class="arrow down"></span></button><button class="mobile-dropdown-title" type="button" aria-label="测试工具"><span class="title">测试工具</span><span class="right arrow"></span></button><ul style="display:none;" class="nav-dropdown"><!--[--><li class="dropdown-item"><a href="/group/foo.md" class="nav-link" aria-label="/group/foo.md"><!--[--><!--]--> /group/foo.md <!--[--><!--]--></a></li><li class="dropdown-item"><a href="/group/bar.md" class="nav-link" aria-label="/group/bar.md"><!--[--><!--]--> /group/bar.md <!--[--><!--]--></a></li><!--]--></ul></div></div><div class="navbar-links-item"><a href="/bar/README.md" class="nav-link" aria-label="/bar/README.md"><!--[--><!--]--> /bar/README.md <!--[--><!--]--></a></div><div class="navbar-links-item"><a class="nav-link external" href="https://gitlab.com/foo/bar" rel="noopener noreferrer" target="_blank" aria-label="GitLab"><!--[--><!--]--> GitLab <span><svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" ariahidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><!--[--><span class="sr-only">open in new window</span><!--]--></span><!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><button class="toggle-dark-button" title="toggle dark mode"><svg style="" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg style="display:none;" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><div class="sidebar-mask"></div><aside class="sidebar"><nav class="navbar-links"><!--[--><div class="navbar-links-item"><a href="/design-patterns/" class="nav-link" aria-label="设计模式"><!--[--><!--]--> 设计模式 <!--[--><!--]--></a></div><div class="navbar-links-item"><a href="/vue/" class="nav-link" aria-label="Vue2&amp;Vue3"><!--[--><!--]--> Vue2&amp;Vue3 <!--[--><!--]--></a></div><div class="navbar-links-item"><div class="dropdown-wrapper"><button class="dropdown-title" type="button" aria-label="测试工具"><span class="title">测试工具</span><span class="arrow down"></span></button><button class="mobile-dropdown-title" type="button" aria-label="测试工具"><span class="title">测试工具</span><span class="right arrow"></span></button><ul style="display:none;" class="nav-dropdown"><!--[--><li class="dropdown-item"><a href="/group/foo.md" class="nav-link" aria-label="/group/foo.md"><!--[--><!--]--> /group/foo.md <!--[--><!--]--></a></li><li class="dropdown-item"><a href="/group/bar.md" class="nav-link" aria-label="/group/bar.md"><!--[--><!--]--> /group/bar.md <!--[--><!--]--></a></li><!--]--></ul></div></div><div class="navbar-links-item"><a href="/bar/README.md" class="nav-link" aria-label="/bar/README.md"><!--[--><!--]--> /bar/README.md <!--[--><!--]--></a></div><div class="navbar-links-item"><a class="nav-link external" href="https://gitlab.com/foo/bar" rel="noopener noreferrer" target="_blank" aria-label="GitLab"><!--[--><!--]--> GitLab <span><svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" ariahidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><!--[--><span class="sr-only">open in new window</span><!--]--></span><!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><ul class="sidebar-links"><!--[--><!--]--></ul><!--[--><!--]--></aside><!--[--><main class="page"><!--[--><!--]--><div class="theme-default-content"><!--[--><h2 id="logging模块简介" tabindex="-1"><a class="header-anchor" href="#logging模块简介" aria-hidden="true">#</a> logging模块简介</h2><p>logging模块是Python内置的标准模块，主要用于输出运行日志，可以设置输出日志的等级、日志保存路径、日志文件回滚等；相比print，具备如下优点：</p><p>可以通过设置不同的日志等级，在release版本中只输出重要信息，而不必显示大量的调试信息； print将所有信息都输出到标准输出中，严重影响开发者从标准输出中查看其它数据；logging则可以由开发者决定将信息输出到什么地方，以及怎么输出；</p><p>logging模块使用</p><h3 id="_2-1-基本使用" tabindex="-1"><a class="header-anchor" href="#_2-1-基本使用" aria-hidden="true">#</a> 2.1 基本使用</h3><p>配置logging基本的设置，然后在控制台输出日志，</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>import logging
+logging.basicConfig(level = logging.INFO,format = &#39;%(asctime)s - %(name)s - %(levelname)s - %(message)s&#39;)
+logger = logging.getLogger(__name__)
+
+logger.info(&quot;Start print log&quot;)
+logger.debug(&quot;Do something&quot;)
+logger.warning(&quot;Something maybe fail.&quot;)
+logger.info(&quot;Finish&quot;)
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>运行时，控制台输出，</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>2016-10-09 19:11:19,434 - __main__ - INFO - Start print log
+2016-10-09 19:11:19,434 - __main__ - WARNING - Something maybe fail.
+2016-10-09 19:11:19,434 - __main__ - INFO - Finish
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>logging中可以选择很多消息级别，如debug、info、warning、error以及critical。通过赋予logger或者handler不同的级别，开发者就可以只输出错误信息到特定的记录文件，或者在调试时只记录调试信息。</p><p>例如，我们将logger的级别改为DEBUG，再观察一下输出结果，</p><p>logging.basicConfig(level = logging.DEBUG,format = &#39;%(asctime)s - %(name)s - %(levelname)s - %(message)s&#39;) 控制台输出，可以发现，输出了debug的信息。</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>2016-10-09 19:12:08,289 - __main__ - INFO - Start print log
+2016-10-09 19:12:08,289 - __main__ - DEBUG - Do something
+2016-10-09 19:12:08,289 - __main__ - WARNING - Something maybe fail.
+2016-10-09 19:12:08,289 - __main__ - INFO - Finish
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>logging.basicConfig函数各参数：</p><ul><li>filename：指定日志文件名；</li><li>filemode：和file函数意义相同，指定日志文件的打开模式，&#39;w&#39;或者&#39;a&#39;；</li><li>format：指定输出的格式和内容，format可以输出很多有用的信息，</li></ul><p>参数：作用</p><ul><li>%(levelno)s：打印日志级别的数值</li><li>%(levelname)s：打印日志级别的名称 %(pathname)s：打印当前执行程序的路径，其实就是sys.argv[0] %(filename)s：打印当前执行程序名 %(funcName)s：打印日志的当前函数 %(lineno)d：打印日志的当前行号 %(asctime)s：打印日志的时间 %(thread)d：打印线程ID %(threadName)s：打印线程名称 %(process)d：打印进程ID %(message)s：打印日志信息 datefmt：指定时间格式，同time.strftime()；</li></ul><p>level：设置日志级别，默认为logging.WARNNING；</p><p>stream：指定将日志的输出流，可以指定输出到sys.stderr，sys.stdout或者文件，默认输出到sys.stderr，当stream和filename同时指定时，stream被忽略；</p><p>2.2 将日志写入到文件 2.2.1 将日志写入到文件</p><p>设置logging，创建一个FileHandler，并对输出消息的格式进行设置，将其添加到logger，然后将日志写入到指定的文件中，</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>import logging
+logger = logging.getLogger(__name__)
+logger.setLevel(level = logging.INFO)
+handler = logging.FileHandler(&quot;log.txt&quot;)
+handler.setLevel(logging.INFO)
+formatter = logging.Formatter(&#39;%(asctime)s - %(name)s - %(levelname)s - %(message)s&#39;)
+handler.setFormatter(formatter)
+logger.addHandler(handler)
+
+logger.info(&quot;Start print log&quot;)
+logger.debug(&quot;Do something&quot;)
+logger.warning(&quot;Something maybe fail.&quot;)
+logger.info(&quot;Finish&quot;)
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><p>log.txt中日志数据为，</p><p>2016-10-09 19:01:13,263 - <strong>main</strong> - INFO - Start print log 2016-10-09 19:01:13,263 - <strong>main</strong> - WARNING - Something maybe fail. 2016-10-09 19:01:13,263 - <strong>main</strong> - INFO - Finish 2.2.2 将日志同时输出到屏幕和日志文件</p><p>logger中添加StreamHandler，可以将日志输出到屏幕上，</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>import logging
+logger = logging.getLogger(__name__)
+logger.setLevel(level = logging.INFO)
+handler = logging.FileHandler(&quot;log.txt&quot;)
+handler.setLevel(logging.INFO)
+formatter = logging.Formatter(&#39;%(asctime)s - %(name)s - %(levelname)s - %(message)s&#39;)
+handler.setFormatter(formatter)
+
+console = logging.StreamHandler()
+console.setLevel(logging.INFO)
+
+logger.addHandler(handler)
+logger.addHandler(console)
+
+logger.info(&quot;Start print log&quot;)
+logger.debug(&quot;Do something&quot;)
+logger.warning(&quot;Something maybe fail.&quot;)
+logger.info(&quot;Finish&quot;)
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><p>可以在log.txt文件和控制台中看到，</p><p>2016-10-09 19:20:46,553 - <strong>main</strong> - INFO - Start print log 2016-10-09 19:20:46,553 - <strong>main</strong> - WARNING - Something maybe fail. 2016-10-09 19:20:46,553 - <strong>main</strong> - INFO - Finish 可以发现，logging有一个日志处理的主对象，其他处理方式都是通过addHandler添加进去，logging中包含的handler主要有如下几种，</p><p>handler名称：位置；作用</p><p>StreamHandler：logging.StreamHandler；日志输出到流，可以是sys.stderr，sys.stdout或者文件 FileHandler：logging.FileHandler；日志输出到文件 BaseRotatingHandler：logging.handlers.BaseRotatingHandler；基本的日志回滚方式 RotatingHandler：logging.handlers.RotatingHandler；日志回滚方式，支持日志文件最大数量和日志文件回滚 TimeRotatingHandler：logging.handlers.TimeRotatingHandler；日志回滚方式，在一定时间区域内回滚日志文件 SocketHandler：logging.handlers.SocketHandler；远程输出日志到TCP/IP sockets DatagramHandler：logging.handlers.DatagramHandler；远程输出日志到UDP sockets SMTPHandler：logging.handlers.SMTPHandler；远程输出日志到邮件地址 SysLogHandler：logging.handlers.SysLogHandler；日志输出到syslog NTEventLogHandler：logging.handlers.NTEventLogHandler；远程输出日志到Windows NT/2000/XP的事件日志 MemoryHandler：logging.handlers.MemoryHandler；日志输出到内存中的指定buffer HTTPHandler：logging.handlers.HTTPHandler；通过&quot;GET&quot;或者&quot;POST&quot;远程输出到HTTP服务器 2.2.3 日志回滚</p><p>使用RotatingFileHandler，可以实现日志回滚，</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>import logging
+from logging.handlers import RotatingFileHandler
+logger = logging.getLogger(__name__)
+logger.setLevel(level = logging.INFO)
+#定义一个RotatingFileHandler，最多备份3个日志文件，每个日志文件最大1K
+rHandler = RotatingFileHandler(&quot;log.txt&quot;,maxBytes = 1*1024,backupCount = 3)
+rHandler.setLevel(logging.INFO)
+formatter = logging.Formatter(&#39;%(asctime)s - %(name)s - %(levelname)s - %(message)s&#39;)
+rHandler.setFormatter(formatter)
+
+console = logging.StreamHandler()
+console.setLevel(logging.INFO)
+console.setFormatter(formatter)
+
+logger.addHandler(rHandler)
+logger.addHandler(console)
+
+logger.info(&quot;Start print log&quot;)
+logger.debug(&quot;Do something&quot;)
+logger.warning(&quot;Something maybe fail.&quot;)
+logger.info(&quot;Finish&quot;)
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br></div></div><p>可以在工程目录中看到，备份的日志文件，</p><p>2016/10/09 19:36 732 log.txt 2016/10/09 19:36 967 log.txt.1 2016/10/09 19:36 985 log.txt.2 2016/10/09 19:36 976 log.txt.3 2.3 设置消息的等级 可以设置不同的日志等级，用于控制日志的输出，</p><p>日志等级：使用范围</p><p>FATAL：致命错误 CRITICAL：特别糟糕的事情，如内存耗尽、磁盘空间为空，一般很少使用 ERROR：发生错误时，如IO操作失败或者连接问题 WARNING：发生很重要的事件，但是并不是错误时，如用户登录密码错误 INFO：处理请求或者状态变化等日常事务 DEBUG：调试过程中使用DEBUG等级，如算法中每个循环的中间状态 2.4 捕获traceback Python中的traceback模块被用于跟踪异常返回信息，可以在logging中记录下traceback，</p><p>代码，</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>import logging
+logger = logging.getLogger(__name__)
+logger.setLevel(level = logging.INFO)
+handler = logging.FileHandler(&quot;log.txt&quot;)
+handler.setLevel(logging.INFO)
+formatter = logging.Formatter(&#39;%(asctime)s - %(name)s - %(levelname)s - %(message)s&#39;)
+handler.setFormatter(formatter)
+
+console = logging.StreamHandler()
+console.setLevel(logging.INFO)
+
+logger.addHandler(handler)
+logger.addHandler(console)
+
+logger.info(&quot;Start print log&quot;)
+logger.debug(&quot;Do something&quot;)
+logger.warning(&quot;Something maybe fail.&quot;)
+try:
+    open(&quot;sklearn.txt&quot;,&quot;rb&quot;)
+except (SystemExit,KeyboardInterrupt):
+    raise
+except Exception:
+    logger.error(&quot;Faild to open sklearn.txt from logger.error&quot;,exc_info = True)
+
+logger.info(&quot;Finish&quot;)
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br></div></div><p>控制台和日志文件log.txt中输出，</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>Start print log
+Something maybe fail.
+Faild to open sklearn.txt from logger.error
+Traceback (most recent call last):
+  File &quot;G:\zhb7627\Code\Eclipse WorkSpace\PythonTest\test.py&quot;, line 23, in &lt;module&gt;
+    open(&quot;sklearn.txt&quot;,&quot;rb&quot;)
+IOError: [Errno 2] No such file or directory: &#39;sklearn.txt&#39;
+Finish
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>也可以使用logger.exception(msg,_args)，它等价于logger.error(msg,exc_info = True,_args)，</p><p>将</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>logger.error(&quot;Faild to open sklearn.txt from logger.error&quot;,exc_info = True)
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>替换为，</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>logger.exception(&quot;Failed to open sklearn.txt from logger.exception&quot;)
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>控制台和日志文件log.txt中输出，</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>Start print log
+Something maybe fail.
+Failed to open sklearn.txt from logger.exception
+Traceback (most recent call last):
+  File &quot;G:\zhb7627\Code\Eclipse WorkSpace\PythonTest\test.py&quot;, line 23, in &lt;module&gt;
+    open(&quot;sklearn.txt&quot;,&quot;rb&quot;)
+IOError: [Errno 2] No such file or directory: &#39;sklearn.txt&#39;
+Finish
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>2.5 多模块使用logging 主模块mainModule.py，</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>import logging
+import subModule
+logger = logging.getLogger(&quot;mainModule&quot;)
+logger.setLevel(level = logging.INFO)
+handler = logging.FileHandler(&quot;log.txt&quot;)
+handler.setLevel(logging.INFO)
+formatter = logging.Formatter(&#39;%(asctime)s - %(name)s - %(levelname)s - %(message)s&#39;)
+handler.setFormatter(formatter)
+
+console = logging.StreamHandler()
+console.setLevel(logging.INFO)
+console.setFormatter(formatter)
+
+logger.addHandler(handler)
+logger.addHandler(console)
+
+
+logger.info(&quot;creating an instance of subModule.subModuleClass&quot;)
+a = subModule.SubModuleClass()
+logger.info(&quot;calling subModule.subModuleClass.doSomething&quot;)
+a.doSomething()
+logger.info(&quot;done with  subModule.subModuleClass.doSomething&quot;)
+logger.info(&quot;calling subModule.some_function&quot;)
+subModule.som_function()
+logger.info(&quot;done with subModule.some_function&quot;)
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br></div></div><p>子模块subModule.py，</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>import logging
+
+module_logger = logging.getLogger(&quot;mainModule.sub&quot;)
+class SubModuleClass(object):
+    def __init__(self):
+        self.logger = logging.getLogger(&quot;mainModule.sub.module&quot;)
+        self.logger.info(&quot;creating an instance in SubModuleClass&quot;)
+    def doSomething(self):
+        self.logger.info(&quot;do something in SubModule&quot;)
+        a = []
+        a.append(1)
+        self.logger.debug(&quot;list a = &quot; + str(a))
+        self.logger.info(&quot;finish something in SubModuleClass&quot;)
+
+def som_function():
+    module_logger.info(&quot;call function some_function&quot;)
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><p>执行之后，在控制和日志文件log.txt中输出，</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>2016-10-09 20:25:42,276 - mainModule - INFO - creating an instance of subModule.subModuleClass
+2016-10-09 20:25:42,279 - mainModule.sub.module - INFO - creating an instance in SubModuleClass
+2016-10-09 20:25:42,279 - mainModule - INFO - calling subModule.subModuleClass.doSomething
+2016-10-09 20:25:42,279 - mainModule.sub.module - INFO - do something in SubModule
+2016-10-09 20:25:42,279 - mainModule.sub.module - INFO - finish something in SubModuleClass
+2016-10-09 20:25:42,279 - mainModule - INFO - done with  subModule.subModuleClass.doSomething
+2016-10-09 20:25:42,279 - mainModule - INFO - calling subModule.some_function
+2016-10-09 20:25:42,279 - mainModule.sub - INFO - call function some_function
+2016-10-09 20:25:42,279 - mainModule - INFO - done with subModule.some_function
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p>首先在主模块定义了logger&#39;mainModule&#39;，并对它进行了配置，就可以在解释器进程里面的其他地方通过getLogger(&#39;mainModule&#39;)得到的对象都是一样的，不需要重新配置，可以直接使用。定义的该logger的子logger，都可以共享父logger的定义和配置，所谓的父子logger是通过命名来识别，任意以&#39;mainModule&#39;开头的logger都是它的子logger，例如&#39;mainModule.sub&#39;。</p><p>实际开发一个application，首先可以通过logging配置文件编写好这个application所对应的配置，可以生成一个根logger，如&#39;PythonAPP&#39;，然后在主函数中通过fileConfig加载logging配置，接着在application的其他地方、不同的模块中，可以使用根logger的子logger，如&#39;PythonAPP.Core&#39;，&#39;PythonAPP.Web&#39;来进行log，而不需要反复的定义和配置各个模块的logger。</p><p>3 通过JSON或者YAML文件配置logging模块 尽管可以在Python代码中配置logging，但是这样并不够灵活，最好的方法是使用一个配置文件来配置。在Python 2.7及以后的版本中，可以从字典中加载logging配置，也就意味着可以通过JSON或者YAML文件加载日志的配置。</p><p>3.1 通过JSON文件配置 JSON配置文件，</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>{
+    &quot;version&quot;:1,
+    &quot;disable_existing_loggers&quot;:false,
+    &quot;formatters&quot;:{
+        &quot;simple&quot;:{
+            &quot;format&quot;:&quot;%(asctime)s - %(name)s - %(levelname)s - %(message)s&quot;
+        }
+    },
+    &quot;handlers&quot;:{
+        &quot;console&quot;:{
+            &quot;class&quot;:&quot;logging.StreamHandler&quot;,
+            &quot;level&quot;:&quot;DEBUG&quot;,
+            &quot;formatter&quot;:&quot;simple&quot;,
+            &quot;stream&quot;:&quot;ext://sys.stdout&quot;
+        },
+        &quot;info_file_handler&quot;:{
+            &quot;class&quot;:&quot;logging.handlers.RotatingFileHandler&quot;,
+            &quot;level&quot;:&quot;INFO&quot;,
+            &quot;formatter&quot;:&quot;simple&quot;,
+            &quot;filename&quot;:&quot;info.log&quot;,
+            &quot;maxBytes&quot;:&quot;10485760&quot;,
+            &quot;backupCount&quot;:20,
+            &quot;encoding&quot;:&quot;utf8&quot;
+        },
+        &quot;error_file_handler&quot;:{
+            &quot;class&quot;:&quot;logging.handlers.RotatingFileHandler&quot;,
+            &quot;level&quot;:&quot;ERROR&quot;,
+            &quot;formatter&quot;:&quot;simple&quot;,
+            &quot;filename&quot;:&quot;errors.log&quot;,
+            &quot;maxBytes&quot;:10485760,
+            &quot;backupCount&quot;:20,
+            &quot;encoding&quot;:&quot;utf8&quot;
+        }
+    },
+    &quot;loggers&quot;:{
+        &quot;my_module&quot;:{
+            &quot;level&quot;:&quot;ERROR&quot;,
+            &quot;handlers&quot;:[&quot;info_file_handler&quot;],
+            &quot;propagate&quot;:&quot;no&quot;
+        }
+    },
+    &quot;root&quot;:{
+        &quot;level&quot;:&quot;INFO&quot;,
+        &quot;handlers&quot;:[&quot;console&quot;,&quot;info_file_handler&quot;,&quot;error_file_handler&quot;]
+    }
+}
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br></div></div><p>通过JSON加载配置文件，然后通过logging.dictConfig配置logging，</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>import json
+import logging.config
+import os
+
+def setup_logging(default_path = &quot;logging.json&quot;,default_level = logging.INFO,env_key = &quot;LOG_CFG&quot;):
+    path = default_path
+    value = os.getenv(env_key,None)
+    if value:
+        path = value
+    if os.path.exists(path):
+        with open(path,&quot;r&quot;) as f:
+            config = json.load(f)
+            logging.config.dictConfig(config)
+    else:
+        logging.basicConfig(level = default_level)
+
+def func():
+    logging.info(&quot;start func&quot;)
+
+    logging.info(&quot;exec func&quot;)
+
+    logging.info(&quot;end func&quot;)
+
+if __name__ == &quot;__main__&quot;:
+    setup_logging(default_path = &quot;logging.json&quot;)
+    func()
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br></div></div><p>3.2 通过YAML文件配置 通过YAML文件进行配置，比JSON看起来更加简介明了，</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>version: 1
+disable_existing_loggers: False
+formatters:
+        simple:
+            format: &quot;%(asctime)s - %(name)s - %(levelname)s - %(message)s&quot;
+handlers:
+    console:
+            class: logging.StreamHandler
+            level: DEBUG
+            formatter: simple
+            stream: ext://sys.stdout
+    info_file_handler:
+            class: logging.handlers.RotatingFileHandler
+            level: INFO
+            formatter: simple
+            filename: info.log
+            maxBytes: 10485760
+            backupCount: 20
+            encoding: utf8
+    error_file_handler:
+            class: logging.handlers.RotatingFileHandler
+            level: ERROR
+            formatter: simple
+            filename: errors.log
+            maxBytes: 10485760
+            backupCount: 20
+            encoding: utf8
+loggers:
+    my_module:
+            level: ERROR
+            handlers: [info_file_handler]
+            propagate: no
+root:
+    level: INFO
+    handlers: [console,info_file_handler,error_file_handler]
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br></div></div><p>通过YAML加载配置文件，然后通过logging.dictConfig配置logging，</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>import yaml
+import logging.config
+import os
+
+def setup_logging(default_path = &quot;logging.yaml&quot;,default_level = logging.INFO,env_key = &quot;LOG_CFG&quot;):
+    path = default_path
+    value = os.getenv(env_key,None)
+    if value:
+        path = value
+    if os.path.exists(path):
+        with open(path,&quot;r&quot;) as f:
+            config = yaml.load(f)
+            logging.config.dictConfig(config)
+    else:
+        logging.basicConfig(level = default_level)
+
+def func():
+    logging.info(&quot;start func&quot;)
+
+    logging.info(&quot;exec func&quot;)
+
+    logging.info(&quot;end func&quot;)
+
+if __name__ == &quot;__main__&quot;:
+    setup_logging(default_path = &quot;logging.yaml&quot;)
+    func()
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br></div></div><!--]--></div><footer class="page-meta"><div class="meta-item edit-link"><a class="nav-link external meta-item-label" href="https://gitlab.com/foo/bar/-/edit/main/python/01module-loggin.md" rel="noopener noreferrer" target="_blank" aria-label="Edit this page"><!--[--><!--]--> Edit this page <span><svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" ariahidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><!--[--><span class="sr-only">open in new window</span><!--]--></span><!--[--><!--]--></a></div><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><span class="meta-item-info">2021/7/6下午7:52:33</span></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: lyl07583@ly.com">刘玉路</span><!----><!--]--><!--]--></span></div></footer><!----><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
+    <script src="/assets/js/runtime~app.6d15dac6.js" defer></script><script src="/assets/js/640.ed334a8d.js" defer></script><script src="/assets/js/app.c77541a8.js" defer></script>
+  </body>
+</html>

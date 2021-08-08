@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <title>你好， VuePress ！</title><meta name="description" content="这是我的第一个 VuePress 站点"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="VuePress 2.0.0-beta.23">
+    <link rel="preload" href="/assets/js/runtime~app.6d15dac6.js" as="script"><link rel="preload" href="/assets/css/styles.cfc44703.css" as="style"><link rel="preload" href="/assets/js/640.ed334a8d.js" as="script"><link rel="preload" href="/assets/js/app.c77541a8.js" as="script">
+    <link rel="stylesheet" href="/assets/css/styles.cfc44703.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container no-sidebar"><header class="navbar"><div class="toggle-sidebar-button"><svg class="icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div><span><a href="/" class=""><img class="logo" src="https://vuejs.org/images/logo.png" alt="你好， VuePress ！"><span class="site-name can-hide">你好， VuePress ！</span></a></span><div class="navbar-links-wrapper" style=""><!--[--><!--]--><nav class="navbar-links can-hide"><!--[--><div class="navbar-links-item"><a href="/design-patterns/" class="nav-link" aria-label="设计模式"><!--[--><!--]--> 设计模式 <!--[--><!--]--></a></div><div class="navbar-links-item"><a href="/vue/" class="nav-link" aria-label="Vue2&amp;Vue3"><!--[--><!--]--> Vue2&amp;Vue3 <!--[--><!--]--></a></div><div class="navbar-links-item"><div class="dropdown-wrapper"><button class="dropdown-title" type="button" aria-label="测试工具"><span class="title">测试工具</span><span class="arrow down"></span></button><button class="mobile-dropdown-title" type="button" aria-label="测试工具"><span class="title">测试工具</span><span class="right arrow"></span></button><ul style="display:none;" class="nav-dropdown"><!--[--><li class="dropdown-item"><a href="/group/foo.md" class="nav-link" aria-label="/group/foo.md"><!--[--><!--]--> /group/foo.md <!--[--><!--]--></a></li><li class="dropdown-item"><a href="/group/bar.md" class="nav-link" aria-label="/group/bar.md"><!--[--><!--]--> /group/bar.md <!--[--><!--]--></a></li><!--]--></ul></div></div><div class="navbar-links-item"><a href="/bar/README.md" class="nav-link" aria-label="/bar/README.md"><!--[--><!--]--> /bar/README.md <!--[--><!--]--></a></div><div class="navbar-links-item"><a class="nav-link external" href="https://gitlab.com/foo/bar" rel="noopener noreferrer" target="_blank" aria-label="GitLab"><!--[--><!--]--> GitLab <span><svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" ariahidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><!--[--><span class="sr-only">open in new window</span><!--]--></span><!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><button class="toggle-dark-button" title="toggle dark mode"><svg style="" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg style="display:none;" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><div class="sidebar-mask"></div><aside class="sidebar"><nav class="navbar-links"><!--[--><div class="navbar-links-item"><a href="/design-patterns/" class="nav-link" aria-label="设计模式"><!--[--><!--]--> 设计模式 <!--[--><!--]--></a></div><div class="navbar-links-item"><a href="/vue/" class="nav-link" aria-label="Vue2&amp;Vue3"><!--[--><!--]--> Vue2&amp;Vue3 <!--[--><!--]--></a></div><div class="navbar-links-item"><div class="dropdown-wrapper"><button class="dropdown-title" type="button" aria-label="测试工具"><span class="title">测试工具</span><span class="arrow down"></span></button><button class="mobile-dropdown-title" type="button" aria-label="测试工具"><span class="title">测试工具</span><span class="right arrow"></span></button><ul style="display:none;" class="nav-dropdown"><!--[--><li class="dropdown-item"><a href="/group/foo.md" class="nav-link" aria-label="/group/foo.md"><!--[--><!--]--> /group/foo.md <!--[--><!--]--></a></li><li class="dropdown-item"><a href="/group/bar.md" class="nav-link" aria-label="/group/bar.md"><!--[--><!--]--> /group/bar.md <!--[--><!--]--></a></li><!--]--></ul></div></div><div class="navbar-links-item"><a href="/bar/README.md" class="nav-link" aria-label="/bar/README.md"><!--[--><!--]--> /bar/README.md <!--[--><!--]--></a></div><div class="navbar-links-item"><a class="nav-link external" href="https://gitlab.com/foo/bar" rel="noopener noreferrer" target="_blank" aria-label="GitLab"><!--[--><!--]--> GitLab <span><svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" ariahidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><!--[--><span class="sr-only">open in new window</span><!--]--></span><!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><ul class="sidebar-links"><!--[--><!--]--></ul><!--[--><!--]--></aside><!--[--><main class="page"><!--[--><!--]--><div class="theme-default-content"><!--[--><p>OS 模块</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>#os模块就是对操作系统进行操作，使用该模块必须先导入模块：
+import os
+
+#getcwd() 获取当前工作目录(当前工作目录默认都是当前文件所在的文件夹)
+result = os.getcwd()
+print(result)
+
+#chdir()改变当前工作目录
+os.chdir(&#39;/home/sy&#39;)
+result = os.getcwd()
+print(result)
+
+open(&#39;02.txt&#39;,&#39;w&#39;)
+
+#操作时如果书写完整的路径则不需要考虑默认工作目录的问题,按照实际书写路径操作
+open(&#39;/home/sy/下载/02.txt&#39;,&#39;w&#39;)
+
+#listdir() 获取指定文件夹中所有内容的名称列表
+result = os.listdir(&#39;/home/sy&#39;)
+print(result)
+
+#mkdir()  创建文件夹
+#os.mkdir(&#39;girls&#39;)
+#os.mkdir(&#39;boys&#39;,0o777)
+
+#makedirs()  递归创建文件夹
+#os.makedirs(&#39;/home/sy/a/b/c/d&#39;)
+
+#rmdir() 删除空目录
+#os.rmdir(&#39;girls&#39;)
+
+#removedirs 递归删除文件夹  必须都是空目录
+#os.removedirs(&#39;/home/sy/a/b/c/d&#39;)
+
+#rename() 文件或文件夹重命名
+#os.rename(&#39;/home/sy/a&#39;,&#39;/home/sy/alibaba&#39;
+#os.rename(&#39;02.txt&#39;,&#39;002.txt&#39;)
+
+#stat() 获取文件或者文件夹的信息
+#result = os.stat(&#39;/home/sy/PycharmProject/Python3/10.27/01.py)
+#print(result)
+
+#system() 执行系统命令(危险函数)
+#result = os.system(&#39;ls -al&#39;)  #获取隐藏文件
+#print(result)
+
+#环境变量
+&#39;&#39;&#39;
+环境变量就是一些命令的集合
+操作系统的环境变量就是操作系统在执行系统命令时搜索命令的目录的集合
+&#39;&#39;&#39;
+#getenv() 获取系统的环境变量
+result = os.getenv(&#39;PATH&#39;)
+print(result.split(&#39;:&#39;))
+
+#putenv() 将一个目录添加到环境变量中(临时增加仅对当前脚本有效)
+#os.putenv(&#39;PATH&#39;,&#39;/home/sy/下载&#39;)
+#os.system(&#39;syls&#39;)
+
+#exit() 退出终端的命令
+
+#os模块中的常用值
+#curdir  表示当前文件夹   .表示当前文件夹  一般情况下可以省略
+print(os.curdir)
+
+#pardir  表示上一层文件夹   ..表示上一层文件夹  不可省略!
+print(os.pardir)
+
+#os.mkdir(&#39;../../../man&#39;)#相对路径  从当前目录开始查找
+#os.mkdir(&#39;/home/sy/man1&#39;)#绝对路径  从根目录开始查找
+
+#name 获取代表操作系统的名称字符串
+print(os.name) #posix -&gt; linux或者unix系统  nt -&gt; window系统
+
+#sep 获取系统路径间隔符号  window -&gt;\    linux -&gt;/
+print(os.sep)
+
+#extsep 获取文件名称和后缀之间的间隔符号  window &amp; linux -&gt; .
+print(os.extsep)
+
+#linesep  获取操作系统的换行符号  window -&gt; \r\n  linux/unix -&gt; \n
+print(repr(os.linesep))
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br><span class="line-number">80</span><br><span class="line-number">81</span><br><span class="line-number">82</span><br></div></div><p>os.path</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>#导入os模块
+import os
+
+#以下内容都是os.path子模块中的内容
+
+#abspath()  将相对路径转化为绝对路径
+path = &#39;./boys&#39;#相对
+result = os.path.abspath(path)
+print(result)
+
+#dirname()  获取完整路径当中的目录部分  &amp;  basename()获取完整路径当中的主体部分
+path = &#39;/home/sy/boys&#39;
+result = os.path.dirname(path)
+print(result)
+
+result = os.path.basename(path)
+print(result)
+
+#split() 将一个完整的路径切割成目录部分和主体部分
+path = &#39;/home/sy/boys&#39;
+result = os.path.split(path)
+print(result)
+
+#join() 将2个路径合并成一个
+var1 = &#39;/home/sy&#39;
+var2 = &#39;000.py&#39;
+result = os.path.join(var1,var2)
+print(result)
+
+#splitext() 将一个路径切割成文件后缀和其他两个部分,主要用于获取文件的后缀
+path = &#39;/home/sy/000.py&#39;
+result = os.path.splitext(path)
+print(result)
+
+#getsize()  获取文件的大小
+#path = &#39;/home/sy/000.py&#39;
+#result = os.path.getsize(path)
+#print(result)
+
+#isfile() 检测是否是文件
+path = &#39;/home/sy/000.py&#39;
+result = os.path.isfile(path)
+print(result)
+
+#isdir()  检测是否是文件夹
+result = os.path.isdir(path)
+print(result)
+
+#islink() 检测是否是链接
+path = &#39;/initrd.img.old&#39;
+result = os.path.islink(path)
+print(result)
+
+#getctime() 获取文件的创建时间 get create time
+#getmtime() 获取文件的修改时间 get modify time
+#getatime() 获取文件的访问时间 get active time
+
+import time
+
+filepath = &#39;/home/sy/下载/chls&#39;
+
+result = os.path.getctime(filepath)
+print(time.ctime(result))
+
+result = os.path.getmtime(filepath)
+print(time.ctime(result))
+
+result = os.path.getatime(filepath)
+print(time.ctime(result))
+
+#exists() 检测某个路径是否真实存在
+filepath = &#39;/home/sy/下载/chls&#39;
+result = os.path.exists(filepath)
+print(result)
+
+#isabs() 检测一个路径是否是绝对路径
+path = &#39;/boys&#39;
+result = os.path.isabs(path)
+print(result)
+
+#samefile() 检测2个路径是否是同一个文件
+path1 = &#39;/home/sy/下载/001&#39;
+path2 = &#39;../../../下载/001&#39;
+result = os.path.samefile(path1,path2)
+print(result)
+
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br><span class="line-number">80</span><br><span class="line-number">81</span><br><span class="line-number">82</span><br><span class="line-number">83</span><br><span class="line-number">84</span><br><span class="line-number">85</span><br><span class="line-number">86</span><br></div></div><p>os.environ</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>#os.environ 用于获取和设置系统环境变量的内置值
+import os
+#获取系统环境变量  getenv() 效果
+print(os.environ[&#39;PATH&#39;])
+
+#设置系统环境变量 putenv()
+os.environ[&#39;PATH&#39;] += &#39;:/home/sy/下载&#39;
+os.system(&#39;chls&#39;)
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h2 id="sys-模块" tabindex="-1"><a class="header-anchor" href="#sys-模块" aria-hidden="true">#</a> sys 模块</h2><ul><li>sys.argv 命令行参数List，第一个元素是程序本身路径</li><li>sys.modules.keys() 返回所有已经导入的模块列表</li><li>sys.exc_info() 获取当前正在处理的异常类,exc_type、exc_value、exc_traceback当前处理的异常详细信息</li><li>sys.exit(n) 退出程序，正常退出时exit(0)</li><li>sys.hexversion 获取Python解释程序的版本值，16进制格式如：0x020403F0</li><li>sys.version 获取Python解释程序的版本信息</li><li>sys.maxint 最大的Int值</li><li>sys.maxunicode 最大的Unicode值</li><li>sys.modules 返回系统导入的模块字段，key是模块名，value是模块</li><li>sys.path 返回模块的搜索路径，初始化时使用PYTHONPATH环境变量的值</li><li>sys.platform 返回操作系统平台名称</li><li>sys.stdout 标准输出</li><li>sys.stdin 标准输入</li><li>sys.stderr 错误输出</li><li>sys.exc_clear() 用来清除当前线程所出现的当前的或最近的错误信息</li><li>sys.exec_prefix 返回平台独立的python文件安装的位置</li><li>sys.byteorder 本地字节规则的指示器，big-endian平台的值是&#39;big&#39;,little-endian平台的值是&#39;little&#39;</li><li>sys.copyright 记录python版权相关的东西</li><li>sys.api_version 解释器的C的API版本</li></ul><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>sys.stdin,sys.stdout,sys.stderr
+
+stdin , stdout , 以及stderr 变量包含与标准I/O 流对应的流对象. 如果需要更好地控制输出,而print 不能满足你的要求, 它们就是你所需要的. 你也可以替换它们, 这时候你就可以重定向输出和输入到其它设备( device ), 或者以非标准的方式处理它们
+我们常用print和raw_input来进行输入和打印，那么print 和 raw_input是如何与标准输入/输出流建立关系的呢？
+其实Python程序的标准输入/输出/出错流定义在sys模块中，分别 为： sys.stdin,sys.stdout, sys.stderr
+下列的程序也可以用来输入和输出是一样的：
+import sys
+
+sys.stdout.write(&#39;HelloWorld!&#39;)
+
+print &#39;Please enter yourname:&#39;,
+name=sys.stdin.readline()[:-1]
+print &#39;Hi, %s!&#39; % name
+
+那么sys.stdin, sys.stdout, stderr到底是什么呢？我们在Python运行环境中输入以下代码：
+import sys
+for f in (sys.stdin,sys.stdout, sys.stderr): print f
+输出为：
+&lt;open file&#39;&lt;stdin&gt;&#39;, mode &#39;r&#39; at 892210&gt;
+&lt;open file&#39;&lt;stdout&gt;&#39;, mode &#39;w&#39; at 892270&gt;
+&lt;open file&#39;&lt;stderr&gt;&#39;, mode &#39;w at 8922d0&gt;
+
+由此可以看出stdin, stdout, stderr在Python中无非都是文件属性的对象，他们在Python启动时自动与Shell 环境中的标准输入，输出，出错关联。
+而Python程序的在Shell中的I/O重定向与本文开始时举的DOS命令的重定向完全相同，其实这种重定向是由Shell来提供的，与Python 本身并无关系。那么我们是否可以在Python程序内部将stdin,stdout,stderr读写操作重定向到一个内部对象呢？答案是肯定的。
+Python提供了一个StringIO模块来完成这个设想，比如：
+from StringIO import StringIO
+import sys
+buff =StringIO()
+
+temp =sys.stdout                              #保存标准I/O流
+sys.stdout =buff                                #将标准I/O流重定向到buff对象
+print 42, &#39;hello&#39;, 0.001
+
+sys.stdout=temp                                #恢复标准I/O流
+print buff.getvalue()
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br></div></div><h2 id="time模块" tabindex="-1"><a class="header-anchor" href="#time模块" aria-hidden="true">#</a> time模块</h2><p>time模块中时间表现的格式主要有三种： 　　a、timestamp时间戳，时间戳表示的是从1970年1月1日00:00:00开始按秒计算的偏移量 　　b、struct_time时间元组，共有九个元素组。 　　c、format time 格式化时间，已格式化的结构使时间更具可读性。包括自定义格式和固定格式。</p><p>主要time生成方法和time格式转换方法实例</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>#! /usr/bin/env python
+# -*- coding:utf-8 -*-
+
+import time
+
+# 生成timestamp
+time.time()
+# 1477471508.05
+#struct_time to timestamp
+time.mktime(time.localtime())
+#生成struct_time
+# timestamp to struct_time 本地时间
+time.localtime()
+time.localtime(time.time())
+# time.struct_time(tm_year=2016, tm_mon=10, tm_mday=26, tm_hour=16, tm_min=45, tm_sec=8, tm_wday=2, tm_yday=300, tm_isdst=0)
+
+# timestamp to struct_time 格林威治时间
+time.gmtime()
+time.gmtime(time.time())
+# time.struct_time(tm_year=2016, tm_mon=10, tm_mday=26, tm_hour=8, tm_min=45, tm_sec=8, tm_wday=2, tm_yday=300, tm_isdst=0)
+
+#format_time to struct_time
+time.strptime(&#39;2011-05-05 16:37:06&#39;, &#39;%Y-%m-%d %X&#39;)
+# time.struct_time(tm_year=2011, tm_mon=5, tm_mday=5, tm_hour=16, tm_min=37, tm_sec=6, tm_wday=3, tm_yday=125, tm_isdst=-1)
+
+#生成format_time
+#struct_time to format_time
+time.strftime(&quot;%Y-%m-%d %X&quot;)
+time.strftime(&quot;%Y-%m-%d %X&quot;,time.localtime())
+# 2016-10-26 16:48:41
+
+
+#生成固定格式的时间表示格式
+time.asctime(time.localtime())
+time.ctime(time.time())
+# Wed Oct 26 16:45:08 2016
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br></div></div><p>参考文档 https://www.cnblogs.com/wf-linux/archive/2018/08/01/9400354.html</p><!--]--></div><footer class="page-meta"><div class="meta-item edit-link"><a class="nav-link external meta-item-label" href="https://gitlab.com/foo/bar/-/edit/main/python/00module.md" rel="noopener noreferrer" target="_blank" aria-label="Edit this page"><!--[--><!--]--> Edit this page <span><svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" ariahidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><!--[--><span class="sr-only">open in new window</span><!--]--></span><!--[--><!--]--></a></div><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><span class="meta-item-info">2021/5/19下午3:38:42</span></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: lyl07583@ly.com">刘玉路</span><!----><!--]--><!--]--></span></div></footer><!----><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
+    <script src="/assets/js/runtime~app.6d15dac6.js" defer></script><script src="/assets/js/640.ed334a8d.js" defer></script><script src="/assets/js/app.c77541a8.js" defer></script>
+  </body>
+</html>
